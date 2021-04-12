@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --BitcoinOrange: #f7931a;
+  --SoftOrange: #ffe9d5;
+  --SecondaryBlue: #1a9af7;
+  --SoftBlue: #e7f5ff;
+  --WarmBlack: #201e1c;
+  --WarmBlack1: #282623;
+  --Grey: #bababa;
+  --OffWhite: #faf8f7;
+  --JustWhite: #ffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.iphonesearchbar {
+  background: rgba (249, 249, 249, 0.94);
+  box-shadow: 0rem 0.05rem 0rem rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2rem);
+  width: ;
+}
+
+.iphonesearchbar-bk {
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  width: auto;
+  height: 33.4rem;
+}
