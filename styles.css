@@ -27,9 +27,6 @@ css
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #ffff;
-  /*
-  Font-Sizes
-  */
 }
 
 html {
@@ -37,14 +34,10 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
-.iphonesearchbar {
-  background: rgba (249, 249, 249, 0.94);
-  box-shadow: 0rem 0.05rem 0rem rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(2rem);
-}
-
-.iphonesearchbar-bk {
+header {
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
-  width: auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: 900px;
   height: 33.4rem;
 }
