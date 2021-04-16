@@ -35,9 +35,45 @@ html {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
   width: 100%;
   min-width: 320px;
   max-width: 900px;
-  height: 33.4rem;
+  height: auto; /*This motherfucker was the fuckin last problem*/
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+header img {
+  justify-content: center;
+  padding: 3rem;
+}
+
+.header--title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header--title-container h1 {
+  text-align: center;
+  color: var(--just-white);
+  font-style: bold;
+  font-size: 2.4rem;
+}
+
+.header--title-container p {
+  text-align: center;
+  color: var(--soft-orange);
+  font-size: 1.4rem;
+  font-style: normal;
+  padding-top: 2.4rem;
+}
+
+.header--title-container a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--warm-black);
 }
