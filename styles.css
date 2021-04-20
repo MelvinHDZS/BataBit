@@ -148,6 +148,7 @@ header img {
   flex-direction: column;
   background-color: var(--warm-black);
   height: auto;
+  align-items: center;
 }
 
 .main--advantages-head {
@@ -212,5 +213,5 @@ header img {
   line-height: 1.8rem;
   color: #808080;
   margin-left: 1.8rem;
-  margin-top: 1.2rem;
+  margin-bottom: 2rem;
 }
