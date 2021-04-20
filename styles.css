@@ -140,25 +140,77 @@ header img {
   padding-top: 2.4rem;
   width: 88%;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
-.main--advanmtages {
+.main--advantages {
   display: flex;
   flex-direction: column;
+  background-color: var(--warm-black);
+  height: auto;
 }
 
-.main--exchange-monedas h3 {
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.8rem;
-  line-height: 23.44px;
-  color: #ff9536;
-  padding-top: 4rem;
-  position: absolute;
-  left: calc(20% - 10px);
+.main--advantages-head {
   justify-content: center;
   text-align: center;
 }
 
+.main--advantages-head h4 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  padding-left: 1.5rem;
+  padding-right: 1.7rem;
+  margin-top: 6.4rem;
+}
+
+.main--advantages-head p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.7rem;
+  padding-bottom: 4rem;
+}
+
 .main--advantages-time {
+  display: flex;
+  flex-direction: column;
+  background-color: #282623;
+  height: auto;
+  width: 28.8rem;
+}
+
+.main--advantages-time span {
+  background-image: url("./images/assetsBataBip/icons/clock.svg");
+  align-self: flex-start;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 1.6rem;
+  margin-left: 1.8rem;
+}
+
+.main--advantages-time #real-time-title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  margin-left: 1.8rem;
+  margin-top: 1.2rem;
+}
+
+.main--advantages-time p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-left: 1.8rem;
+  margin-top: 1.2rem;
 }
