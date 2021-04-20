@@ -142,6 +142,11 @@ header img {
   margin: 0 auto;
 }
 
+.main--advanmtages {
+  display: flex;
+  flex-direction: column;
+}
+
 .main--exchange-monedas h3 {
   font-weight: 700;
   font-style: normal;
@@ -151,4 +156,9 @@ header img {
   padding-top: 4rem;
   position: absolute;
   left: calc(20% - 10px);
+  justify-content: center;
+  text-align: center;
+}
+
+.main--advantages-time {
 }
