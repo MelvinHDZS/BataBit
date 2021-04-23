@@ -185,6 +185,7 @@ header img {
   background-color: #282623;
   height: auto;
   width: 28.8rem;
+  border-radius: 4px;
 }
 
 .main--advantages-time span {
@@ -214,4 +215,43 @@ header img {
   color: #808080;
   margin-left: 1.8rem;
   margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.main--advantages-hiding {
+  display: flex;
+  flex-direction: column;
+  background-color: #282623;
+  height: auto;
+  width: 28.8rem;
+  border-radius: 4px;
+}
+
+.main--advantages-hiding span {
+  align-self: flex-start;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 1.6rem;
+  margin-left: 1.8rem;
+  margin-bottom: 1.2rem;
+  background-image: url("./images/assetsBataBip/icons/eye.svg");
+}
+
+.main--advantages-hiding #main--advantages_title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.main--advantages-hiding p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-left: 1.8rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
 }
