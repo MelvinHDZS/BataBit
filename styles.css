@@ -149,6 +149,7 @@ header img {
   background-color: var(--warm-black);
   height: auto;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 .main--advantages-head {
@@ -237,7 +238,7 @@ header img {
   background-image: url("./images/assetsBataBip/icons/eye.svg");
 }
 
-.main--advantages-hiding #main--advantages_title {
+.main--advantages-hiding #main--hiding_title {
   font-weight: 700;
   font-style: normal;
   font-size: 1.8rem;
@@ -254,4 +255,133 @@ header img {
   margin-left: 1.8rem;
   margin-bottom: 2rem;
   margin-right: 2rem;
+}
+
+.main--advantages-coins {
+  display: flex;
+  flex-direction: column;
+  background-color: #282623;
+  height: auto;
+  width: 28.8rem;
+  border-radius: 4px;
+}
+
+.main--advantages-coins span {
+  background-image: url("./images/assetsBataBip/icons/dollar-sign.svg");
+  align-self: flex-start;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 1.6rem;
+  margin-left: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.main--advantages-coins #main--coins_title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.main--advantages-coins p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-left: 1.8rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.main--advantages-information {
+  display: flex;
+  flex-direction: column;
+  background-color: #282623;
+  height: auto;
+  width: 28.8rem;
+  border-radius: 4px;
+}
+
+.main--advantages-information span {
+  background-image: url("./images/assetsBataBip/icons/clock.svg");
+  align-self: flex-start;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 1.6rem;
+  margin-left: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.main--advantages-information #main--information_title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.main--advantages-information p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-left: 1.8rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.main--imgback {
+  display: flex;
+  flex-direction: column;
+}
+
+.main--imgback span {
+  background-image: url("./images/assetsBataBip/img/bitcoinbaby.png");
+  width: 32rem;
+  height: 38.7rem;
+}
+
+.main--imgback #main--imgback_title {
+  position: absolute;
+  left: calc(118px - 15%);
+  bottom: calc(118px - 112%);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 2.6rem;
+  font-size: 2.4rem;
+  color: var(--just-white);
+}
+
+.main--plans {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.main--plans h5 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  margin-top: 6rem;
+  margin-left: 1.5rem;
+  margin-right: 1.7rem;
+}
+
+.main--plans p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #757575;
+  margin-top: 2.3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.7rem;
 }
