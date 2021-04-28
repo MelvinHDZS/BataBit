@@ -374,7 +374,7 @@ header img {
   margin-right: 1.7rem;
 }
 
-.main--plans p {
+.main--plans #main--plans_introduction {
   font-weight: 500;
   font-style: normal;
   font-size: 1.4rem;
@@ -384,4 +384,109 @@ header img {
   margin-top: 2.3rem;
   margin-left: 1.5rem;
   margin-right: 1.7rem;
+  margin-bottom: 3.5rem;
+}
+
+.main--plans-recomended {
+  width: 19rem;
+  background-color: var(--just-white);
+  box-shadow: 0px, 4px, 8px rgba(89, 73, 30, 0.16rem);
+  border-radius: 0.8rem;
+  height: 24.7rem;
+}
+
+h6 {
+  color: #000000;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  margin-top: 3.1rem;
+}
+
+.main--plans-recomended .main--plans-recomended_dllsignal {
+  font-family: "Inter";
+  position: absolute;
+  bottom: -164.5%;
+  left: 11.5rem;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.452rem;
+}
+
+.main--plans-recomended .main--plans-recomended_cost {
+  font-family: "Inter";
+  color: #000000;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5.2rem;
+  line-height: 6.293rem;
+  position: absolute;
+  bottom: -168.8%;
+  left: 12.3rem;
+}
+
+.main--plans-recomended .main--plans-recomended_saving {
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.452rem;
+  position: absolute;
+  bottom: -172%;
+  text-align: center;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+  left: 0.1rem;
+  color: #757575;
+}
+
+#main--plans-recomended_tag {
+  background-color: #f7931a;
+  padding: 0.8rem;
+  position: absolute;
+  border-radius: 0.8rem;
+  bottom: -157.7%;
+  right: 11.9rem;
+}
+
+#main--plans-recomended_tag p {
+  font-family: "Inter";
+  color: var(--just-white);
+  font-style: normal;
+  size: 1.2rem;
+  line-height: 1.452rem;
+  text-align: center;
+}
+#main--plans-recomended_buttom {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  background-color: var(--soft-orange);
+  text-decoration: none;
+  border-radius: 0.4rem;
+  border: 2px solid #f7931a;
+  bottom: -155rem;
+  right: 8.4rem;
+  height: 4.8rem;
+  width: 15.1rem;
+}
+
+#main--plans-recomended_buttom p {
+  color: var(--warm-black);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.823rem;
+}
+
+#main--plans-recomended_buttom span {
+  background-image: url("./images/assetsBataBip/icons/orange-right-arrow.svg");
+  width: 2.5rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+  justify-content: flex-end;
 }
