@@ -361,6 +361,7 @@ header img {
   flex-direction: column;
   align-items: center;
   background-color: #e5e5e5;
+  padding-bottom: 4.5rem;
 }
 
 .main--plans h5 {
@@ -390,7 +391,7 @@ header img {
 .main--plans-recomended {
   width: 19rem;
   background-color: var(--just-white);
-  box-shadow: 0px, 4px, 8px rgba(89, 73, 30, 0.16rem);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 0.8rem;
   height: 24.7rem;
 }
@@ -489,4 +490,61 @@ h6 {
   height: 2.5rem;
   padding-left: 1rem;
   justify-content: flex-end;
+}
+
+.main--QandA {
+  background-color: #e5e5e5;
+  height: auto;
+}
+
+.main--QandA #main--QandA_title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  padding: 0 1.6rem;
+}
+
+footer {
+  background-color: #f7931a;
+  height: auto;
+  max-width: 68.4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.footer--logo {
+  margin-top: 3.5rem;
+  margin-left: 3rem;
+}
+
+.footer--logo span {
+  margin-top: 1.5rem;
+  margin-left: 1.1rem;
+}
+
+footer .footer--logo p {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-style: normal;
+  color: var(--soft-orange);
+}
+
+.footer--list {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer--list a {
+  text-decoration: none;
+  color: var(--just-white);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
 }
