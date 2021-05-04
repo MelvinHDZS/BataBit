@@ -143,6 +143,23 @@ header img {
   padding-bottom: 5rem;
 }
 
+.main-currency-table {
+  width: 70%;
+  min-width: 23.5rem;
+  max-width: 50rem;
+  height: 36rem;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.batataicon {
+  background-image: url("./images/assetsBataBip/icons/batata.svg");
+  width: 41px;
+  height: 25px;
+  position: absolute;
+  top: -12px;
+}
+
 .main--advantages {
   display: flex;
   flex-direction: column;
@@ -150,6 +167,7 @@ header img {
   height: auto;
   align-items: center;
   padding-bottom: 5rem;
+  position: relative;
 }
 
 .main--advantages-head {
@@ -185,8 +203,13 @@ header img {
   flex-direction: column;
   background-color: #282623;
   height: auto;
-  width: 28.8rem;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 288px;
+  max-width: 400px;
   border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .main--advantages-time span {
@@ -224,8 +247,13 @@ header img {
   flex-direction: column;
   background-color: #282623;
   height: auto;
-  width: 28.8rem;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 288px;
+  max-width: 400px;
   border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .main--advantages-hiding span {
@@ -262,8 +290,13 @@ header img {
   flex-direction: column;
   background-color: #282623;
   height: auto;
-  width: 28.8rem;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 288px;
+  max-width: 400px;
   border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .main--advantages-coins span {
@@ -300,8 +333,12 @@ header img {
   flex-direction: column;
   background-color: #282623;
   height: auto;
-  width: 28.8rem;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 288px;
+  max-width: 400px;
   border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .main--advantages-information span {
@@ -339,159 +376,136 @@ header img {
 }
 
 .main--imgback span {
-  background-image: url("./images/assetsBataBip/img/bitcoinbaby.png");
-  width: 32rem;
-  height: 38.7rem;
+  background-image: url("./images/assetsBataBip/img/bitcoinbaby2x.jpg");
+  width: 100%;
+  min-width: 320px;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main--imgback #main--imgback_title {
-  position: absolute;
-  left: calc(118px - 15%);
-  bottom: calc(118px - 112%);
   font-weight: 700;
   font-style: normal;
   line-height: 2.6rem;
   font-size: 2.4rem;
   color: var(--just-white);
+  text-align: center;
+  margin-top: 60px;
 }
 
-.main--plans {
+/*Start all plans, take a lot of care about how it works
+to more future projects*/
+.main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.plans--title {
+  width: 90%;
+  min-width: 288px;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #e5e5e5;
-  padding-bottom: 4.5rem;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.main--plans h5 {
-  font-weight: 700;
-  font-style: normal;
+.plans--title h2 {
+  padding-top: 50px;
   font-size: 2.4rem;
+  font-weight: bold;
   line-height: 2.6rem;
-  text-align: center;
-  margin-top: 6rem;
-  margin-left: 1.5rem;
-  margin-right: 1.7rem;
+  color: var(--black);
 }
 
-.main--plans #main--plans_introduction {
-  font-weight: 500;
-  font-style: normal;
+.plans--title p {
+  padding-top: 30px;
   font-size: 1.4rem;
+  font-weight: 500;
   line-height: 1.8rem;
-  text-align: center;
   color: #757575;
-  margin-top: 2.3rem;
-  margin-left: 1.5rem;
-  margin-right: 1.7rem;
-  margin-bottom: 3.5rem;
 }
 
-.main--plans-recomended {
-  width: 19rem;
+.plans-container--card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
   background-color: var(--just-white);
-  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-  border-radius: 0.8rem;
-  height: 24.7rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-h6 {
-  color: #000000;
-  font-style: normal;
+.recomendado {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  border-radius: 8px;
+  color: var(--just-white);
+
+  background-color: var(--bitcoin-orange);
+}
+
+.plan-card--title {
+  padding-top: 30px;
   font-size: 1.4rem;
+  font-weight: 500;
   line-height: 1.8rem;
-  text-align: center;
-  margin-top: 3.1rem;
+  color: black;
 }
 
-.main--plans-recomended .main--plans-recomended_dllsignal {
-  font-family: "Inter";
-  position: absolute;
-  bottom: -164.5%;
-  left: 11.5rem;
-  font-family: "Inter";
-  font-weight: 500;
+.plan-card--price span {
   font-size: 1.2rem;
-  line-height: 1.452rem;
-}
-
-.main--plans-recomended .main--plans-recomended_cost {
-  font-family: "Inter";
-  color: #000000;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 5.2rem;
-  line-height: 6.293rem;
+  font-weight: 300;
   position: absolute;
-  bottom: -168.8%;
-  left: 12.3rem;
+  top: 35px;
+  left: calc(50% - 40px);
 }
-
-.main--plans-recomended .main--plans-recomended_saving {
-  font-family: "Inter";
-  font-weight: 500;
-  font-style: normal;
+.plan-card--saving {
   font-size: 1.2rem;
-  line-height: 1.452rem;
-  position: absolute;
-  bottom: -172%;
-  text-align: center;
-  margin-left: 6.5rem;
-  margin-right: 6.5rem;
-  left: 0.1rem;
   color: #757575;
 }
 
-#main--plans-recomended_tag {
-  background-color: #f7931a;
-  padding: 0.8rem;
-  position: absolute;
-  border-radius: 0.8rem;
-  bottom: -157.7%;
-  right: 11.9rem;
+.plan-card--price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: black;
 }
 
-#main--plans-recomended_tag p {
-  font-family: "Inter";
-  color: var(--just-white);
-  font-style: normal;
-  size: 1.2rem;
-  line-height: 1.452rem;
-  text-align: center;
-}
-#main--plans-recomended_buttom {
-  padding: 12px 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: absolute;
-  background-color: var(--soft-orange);
-  text-decoration: none;
-  border-radius: 0.4rem;
-  border: 2px solid #f7931a;
-  bottom: -155rem;
-  right: 8.4rem;
-  height: 4.8rem;
-  width: 15.1rem;
-}
-
-#main--plans-recomended_buttom p {
-  color: var(--warm-black);
-  font-weight: 700;
-  font-style: normal;
+.plan-card--ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #faf8f7;
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
   font-size: 1.4rem;
-  line-height: 1.823rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  font-family: "DM Sans, sans-serif";
 }
 
-#main--plans-recomended_buttom span {
+.plan-card--ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
   background-image: url("./images/assetsBataBip/icons/orange-right-arrow.svg");
-  width: 2.5rem;
-  height: 2.5rem;
-  padding-left: 1rem;
-  justify-content: flex-end;
 }
 
+/*End of PLANS*/
 .main--QandA {
   background-color: #e5e5e5;
   height: auto;
@@ -509,7 +523,8 @@ h6 {
 footer {
   background-color: #f7931a;
   height: auto;
-  max-width: 68.4rem;
+  width: auto;
+  max-width: 900px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
