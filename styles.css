@@ -103,7 +103,6 @@ header img {
   background-color: var(--off-white);
   display: flex;
   flex-direction: column;
-  align-items: center;
   height: auto;
 }
 
@@ -737,6 +736,7 @@ header img {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
+/*QANDA---------------------------------------------------------------------------*/
 .main--QandA {
   background-color: #e5e5e5;
   height: auto;
@@ -748,9 +748,34 @@ header img {
   font-size: 2.4rem;
   line-height: 2.6rem;
   text-align: center;
-  padding: 0 1.6rem;
+  width: 85%;
+  margin: 30px auto;
 }
 
+.main--QandA .main--QandA-section {
+}
+
+.main--QandA .main--QandA_buttons {
+  border: none;
+  background-color: #e5e5e5;
+  display: block;
+  margin-left: 5%;
+  height: auto;
+}
+
+.main--QandA .main--QandA_buttons p {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.main--QandA .main--QandA_buttons span {
+  background-image: url("./images/assetsBataBip/icons/down-arrow.svg");
+}
+/*FOOTER-----------------------------------------------------------------*/
 footer {
   background-color: #f7931a;
   height: auto;
